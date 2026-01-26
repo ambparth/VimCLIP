@@ -1,0 +1,7 @@
+regex
+ftfy
+tqdm
+pandas
+braceexpand
+huggingface_hub
+transformers
