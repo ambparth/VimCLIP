@@ -45,5 +45,5 @@ In these experiments, three variants of the models are used for training. The ba
 The evaluation is done on the validation set of the CC3M dataset for the cross modal retrieval tasks and on the ImageNet data variants in the case of the zero shot classfication. 
 
 ## Acknowledgement
-Our codes are built over [CLIP-KD](https://github.com/winycg/CLIP-KD) and [Vim](https://github.com/hustvl/Vim). If you find this repository useful for your work and application, please beep out from here, as i have citation at the moment. 
+Our codes are built over [CLIP-KD](https://github.com/winycg/CLIP-KD) and [Vim](https://github.com/hustvl/Vim). If you find this repository useful for your work and application, please beep out from here, as i have no citation at the moment. 
 
