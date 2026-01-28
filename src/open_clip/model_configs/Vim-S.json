@@ -1,0 +1,28 @@
+{
+  "embed_dim": 384,
+  "vision_cfg": {
+    "type": "vim-s",
+    "patch_size": 16,
+    "embed_dim": 384,
+    "d_state": 16,
+    "depth": 18,
+    "rms_norm": true,
+    "residual_in_fp32": true,
+    "fused_add_norm": true,
+    "final_pool_type": "mean",
+    "if_abs_pos_embed": true,
+    "if_rope": false,
+    "if_rope_residual": false,
+    "bimamba_type": "v2",
+    "if_cls_token": true,
+    "if_devide_out": true,
+    "use_middle_cls_token": true
+  },
+  "text_cfg": {
+    "context_length": 77,
+    "vocab_size": 49408,
+    "width": 192,
+    "heads": 3,
+    "layers": 12
+  }
+}
