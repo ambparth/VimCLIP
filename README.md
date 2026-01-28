@@ -47,6 +47,17 @@ In these experiments, three variants of the models are used for training. The ba
 
 where `<v>` is the variant of the model (either T, S or B) 
 
+| Vision Backbone |      |        | Text Backbone (Transformer) |       |      |        |
+|-----------------|------|--------|-----------------------------|-------|------|--------|
+| Model           | Type | Params | Layers                      | Width | Head | Params |
+| ViT-B/16        | ViT  | 86M    | 12                          | 384   | 6    | 21.3M  |
+| ViT-S/16        | ViT  | 21.5M  | 12                          | 384   | 6    | 21.3M  |
+| ViT-T/16        | ViT  | 5.6M   | 12                          | 384   | 6    | 21.3M  |
+| VimCLIP-B       | Mamba| 96M    | 12                          | 384   | 6    | 21.3M  |
+| VimCLIP-S       | Mamba| 23M    | 12                          | 384   | 6    | 21.3M  |
+| VimCLIP-T       | Mamba| 7M     | 12                          | 384   | 6    | 21.3M  |
+
+
 ## Evaluation 
 The evaluation is done on the validation set of the CC3M dataset for the cross modal retrieval tasks and on the ImageNet data variants in the case of the zero shot classfication. These are placed in the `evaluations` folder.
 
