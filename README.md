@@ -39,10 +39,20 @@ Similarly in the case of the zero-shot classification, the Imagenet dataset vari
 * Imagenet Sketch dataset (imagenet-sketch) - [link](https://www.kaggle.com/datasets/wanghaohan/imagenetsketch)
 
 ## Training 
-In these experiments, three variants of the models are used for training. The base (b), small (s) and the tiny (t) variants. 
+In these experiments, three variants of the models are used for training. The base (B), small (S) and the tiny (T) variants. For running the training on the above mentioned dataset, 
+
+`bash script/baseline/ViT_<v>_16.sh ` for training the vision transformer based models (ViT as the vision encoder) 
+
+`bash script/baseline/VimCLIP_<v>.sh` for training the vision mamba based VimCLIP model. 
+
+where `<v>` is the variant of the model (either T, S or B) 
 
 ## Evaluation 
-The evaluation is done on the validation set of the CC3M dataset for the cross modal retrieval tasks and on the ImageNet data variants in the case of the zero shot classfication. 
+The evaluation is done on the validation set of the CC3M dataset for the cross modal retrieval tasks and on the ImageNet data variants in the case of the zero shot classfication. These are placed in the `evaluations` folder.
+
+`bash script/evaluation/ViT_<v>_16.sh ` for training the vision transformer based models (ViT as the vision encoder) 
+
+`bash script/evaluation/VimCLIP_<v>.sh` for training the vision mamba based VimCLIP model. 
 
 ## Acknowledgement
 Our codes are built over [CLIP-KD](https://github.com/winycg/CLIP-KD) and [Vim](https://github.com/hustvl/Vim). If you find this repository useful for your work and application, please beep out from here, as i have no citation at the moment. 
