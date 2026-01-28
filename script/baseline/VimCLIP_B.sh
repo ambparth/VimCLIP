@@ -1,0 +1,23 @@
+cd src
+torchrun --nproc_per_node=1 \
+    --master_addr=127.0.0.2 --master_port=29514 \
+    -m training.main \
+    --save-frequency 1 \
+    --zeroshot-frequency 1 \
+    --report-to tensorboard \
+    --train-data "/path/of/cc3_train.csv/,path/of/cc12m.csv" \
+    --val-data "/path/of/cc3_val.csv" \
+    --data-root "/path/of/cc3m/images/,/path/of/cc12m/images/" \
+    --val-data-root "/path/of/cc3m/images/" \
+    --csv-img-key filepath \
+    --csv-caption-key title \
+    --imagenet-val="path/of/imagenet-val" \
+    --warmup 3000 \
+    --batch-size 128 \
+    --lr 1e-3 \
+    --wd 0.1 \
+    --epochs 32 \
+    --workers 24 \
+    --model Vim-B\
+    --precision "fp32" \
+    --tag baseline-mamba
