@@ -22,13 +22,7 @@ The successful installation of Torch can be verified if `torch.cuda.is_available
 
 In the experiments, we make use of the combination of Conceptual Datasets (CC) of the 3M and 12M variants in the case of the Cross Modal Retrieval Tasks (image-to-text, text-to-image). Similarly in the case of the Zero-shot classification, the different variants of the ImageNet dataset are used; validation set, rendition set, adversarial set and the sketch set. 
 
-The dataset for the CC3M variant can be found in [here](https://ai.google.com/research/ConceptualCaptions/download). Further, in order to get to a corresponding `.csv` format, 
-
-`python src/data/gather_cc.py [path/to/cc3m/images/] [path/to/cc3m_train.tsv] [path/to/cc3m_val.tsv]`
-
-Similarly for the CC12 variant, the following [link](https://github.com/rom1504/img2dataset/blob/main/dataset_examples/cc12m.md) can be used. In otder to get the similar corresponding `.csv` format, 
-
-`python src/data/gather_cc12m.py [path/to/cc12m/images/] [path/to/cc12m.tsv]`
+The dataset for the CC3M variant can be found in [here](https://ai.google.com/research/ConceptualCaptions/download). Similarly for the CC12 variant, the following [link](https://github.com/rom1504/img2dataset/blob/main/dataset_examples/cc12m.md) can be used.
 
 as the downloadable data are in the form of URL, the data availability purely resides on the availability of the URL. At the time of our download, the combined dataset of CC12M+CC3M were around 9.1M. 
 
@@ -66,5 +60,5 @@ The evaluation is done on the validation set of the CC3M dataset for the cross m
 `bash script/evaluation/VimCLIP_<v>.sh` for training the vision mamba based VimCLIP model. 
 
 ## Acknowledgement
-Our codes are built over [CLIP-KD](https://github.com/winycg/CLIP-KD) and [Vim](https://github.com/hustvl/Vim). If you find this repository useful for your work and application, please beep out from here, as i have no citation at the moment. 
+Our codes are built over [CLIP-KD](https://github.com/winycg/CLIP-KD) and [Vim](https://github.com/hustvl/Vim).
 
