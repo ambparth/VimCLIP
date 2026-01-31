@@ -1,6 +1,6 @@
 # VimCLIP
 
-This repository here contains the relevant codes of VimCLIP [VimCLIP: A Vision Mamba Based Multimodal Approach for Retrieval and Zero-Shot Classification Tasks]. 
+This repository here contains the relevant codes of VimCLIP [VimCLIP: A Vision Mamba Based Multimodal Approach for Retrieval and Zero-Shot Classification Tasks (NCC 2026)]. 
 
 ## Installation Procedures
 The codes are run with a python environement version 3.10, and with CUDA version 12.4
