@@ -248,7 +248,7 @@ class VisionMamba(nn.Module):
                  dtype=None,
                  ft_seq_len=None,
                  pt_hw_seq_len=14,
-                 if_bidirectional=False,
+                 if_bidirectional=False, # this is to be set to 'True' for using the true Vim model.
                  final_pool_type='none',
                  if_abs_pos_embed=True,
                  if_rope=False,
