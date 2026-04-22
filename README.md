@@ -62,8 +62,6 @@ The evaluation is done on the validation set of the CC3M dataset for the cross m
 ## Acknowledgement
 Our codes are built over [CLIP-KD](https://github.com/winycg/CLIP-KD) and [Vim](https://github.com/hustvl/Vim). We hope our work and this repository is helpful to you! 
 
-If you use this work, please cite:
-
 ```bibtex
 @INPROCEEDINGS{11479038,
   author={Parthasarathy, Ambarish and Channappayya, Sumohana},
