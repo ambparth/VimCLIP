@@ -65,13 +65,14 @@ Our codes are built over [CLIP-KD](https://github.com/winycg/CLIP-KD) and [Vim](
 If you use this work, please cite:
 
 ```bibtex
-@article{yourkey2026,
-  title={Your Paper Title},
-  author={Author Name and Coauthor Name},
-  journal={Journal or Conference Name},
+@INPROCEEDINGS{11479038,
+  author={Parthasarathy, Ambarish and Channappayya, Sumohana},
+  booktitle={2026 National Conference on Communications (NCC)}, 
+  title={VimCLIP: A Vision Mamba Based Multimodal Approach for Retrieval and Zero-Shot Classification Tasks}, 
   year={2026},
-  volume={X},
-  number={Y},
-  pages={1--10},
-  doi={xx.xxxx/xxxxxx}
-}
+  volume={},
+  number={},
+  pages={460-465},
+  keywords={Filtering;Filters;Circuits and systems;Instant messaging;Protocols;Electronic messaging;Internet;HTTP;Radio access networks;Regional area networks;Multimodal Representation Learning;Vision Mamba;State Space Model},
+  doi={10.1109/NCC68160.2026.11479038}}
+
