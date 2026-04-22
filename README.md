@@ -60,5 +60,18 @@ The evaluation is done on the validation set of the CC3M dataset for the cross m
 `bash script/evaluation/VimCLIP_<v>.sh` for training the vision mamba based VimCLIP model. 
 
 ## Acknowledgement
-Our codes are built over [CLIP-KD](https://github.com/winycg/CLIP-KD) and [Vim](https://github.com/hustvl/Vim). We hope our work and this repository is helpful to you ! 
+Our codes are built over [CLIP-KD](https://github.com/winycg/CLIP-KD) and [Vim](https://github.com/hustvl/Vim). We hope our work and this repository is helpful to you! 
 
+If you use this work, please cite:
+
+```bibtex
+@article{yourkey2026,
+  title={Your Paper Title},
+  author={Author Name and Coauthor Name},
+  journal={Journal or Conference Name},
+  year={2026},
+  volume={X},
+  number={Y},
+  pages={1--10},
+  doi={xx.xxxx/xxxxxx}
+}
